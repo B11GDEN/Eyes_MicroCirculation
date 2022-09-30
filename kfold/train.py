@@ -21,7 +21,7 @@ def parse_args():
     parser = argparse.ArgumentParser(description='kfold train U-net on the eyes data')
 
     # data parameters
-    parser.add_argument('-src', help='path to data', default='../datasets/*****')
+    parser.add_argument('-src', help='path to data', default='../datasets/EYES_MICRO_AUX')
     parser.add_argument('-num_folds', help='how many folds use in cross-validation', type=int, default=5)
 
     # dataset and pipeline parameters
