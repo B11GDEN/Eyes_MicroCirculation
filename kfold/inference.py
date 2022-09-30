@@ -15,7 +15,7 @@ from dataset import get_test_transform
 def parse_args():
     parser = argparse.ArgumentParser(description='1fold inference on the eyes data')
 
-    parser.add_argument('-src', help='directory to apply inference', default='../dataset/test')
+    parser.add_argument('-src', help='directory to apply inference', default='../datasets/test')
     parser.add_argument('-exp', help='experiment name', default='exp')
     parser.add_argument('-fill_value', help='how to fill mask', type=int, default=255)
 
