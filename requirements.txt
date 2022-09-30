@@ -4,6 +4,6 @@ rich
 tqdm
 numpy
 sklearn
+pytorch-lightning
 git+https://github.com/qubvel/segmentation_models.pytorch
 git+https://github.com/albumentations-team/albumentations
-git+https://github.com/Lightning-AI/lightning.git
