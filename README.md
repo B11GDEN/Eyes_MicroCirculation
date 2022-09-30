@@ -66,6 +66,6 @@ python3 postprocess.py -src ./result/test_inference -thr 200
 ```commandline
 cd kfold
 python3 train.py -src ../datasets/EYES_MICRO_AUX -num_folds 5 -bs 4 -epochs 200 -workers 8
-python3 inference.py -weight lightning_logs -thr 0.6 -exp test_inference
+python3 inference.py -ens_path lightning_logs -thr 0.6 -exp test_inference
 python3 postprocess.py -src ./result/test_inference -thr 200
 ```
