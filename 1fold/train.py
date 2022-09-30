@@ -19,7 +19,7 @@ def parse_args():
     parser = argparse.ArgumentParser(description='1fold train U-net on the eyes data')
 
     # data parameters
-    parser.add_argument('-src', help='path to data', default='../datasets/*****')
+    parser.add_argument('-src', help='path to data', default='../datasets/EYES_MICRO_AUX')
     parser.add_argument('-test_size', help='how to divide test data', type=float, default=0.2)
 
     # dataset and pipeline parameters
